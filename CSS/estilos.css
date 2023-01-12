@@ -1,7 +1,16 @@
-*{color:beige; 
+h1{color:black; 
 
 }
-p { color: red;
+
+
+#demo{
+    color: rgb(214, 17, 17);
+}
+
+button{
+    color: aqua;
+}
+p { color: black;
     width: 300px;
 
 }
