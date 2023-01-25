@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+section{    
+    height: 100vh;
+}
+
+section#hero {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#Proyects{
+   margin-top: 10px;
+    background-color: gray;
+}
+
+ h1{
+    font-size: 3rem;
+}
+
+ h2{    
+    font-size: 2rem;
+    text-align: center;
+}
+
+.proyect-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.proyect-details{
+    
+    border: 5px solid black ;
+    width: 300px;
+    margin: 30px;
+}
+
+.proyect-details img{
+    width: 100%;
+
+}
