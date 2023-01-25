@@ -4,8 +4,6 @@
     padding: 0;
 }
 
-
-
 section{    
     height: 100vh;
 }
@@ -36,15 +34,23 @@ section#Proyects{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.proyect-details{
+    background-color: gray;
     
-    border: 5px solid black ;
+}
+.proyect-detail{
+    margin: 170px;
     width: 300px;
-    margin: 30px;
+    
 }
 
-.proyect-details img{
+.proyect-detail img{
     width: 100%;
+    border: 5px solid black ;
+    
+    
 
 }
+
+
+
+
