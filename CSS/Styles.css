@@ -33,6 +33,7 @@ section#Proyects{
 .proyect-list{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: center;
     background-color: gray;
     
@@ -45,7 +46,9 @@ section#Proyects{
 
 .proyect-detail img{
     width: 100%;
-    border: 5px solid black ;
+    justify-content: center;
+   
+    
     
     
 
