@@ -4,9 +4,24 @@
     padding: 0;
 }
 
+
+
 section{    
-    height: 100vh;
+    height: 90vh;
 }
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: antiquewhite;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+
+
 
 section#hero {
     background-color: lightgray;
@@ -16,7 +31,10 @@ section#hero {
     align-items: center;
 }
 
-
+section#Proyects{
+    margin-top: 10px;
+    background-color: gray;
+}
 
  h1{
     font-size: 3rem;
@@ -25,16 +43,46 @@ section#hero {
  h2{    
     font-size: 2rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-feature-settings: "akhn";
 }
 
-h3{
+.proyect-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+    
+}
+.proyect-detail{
+    margin: 170px;
+    width: 300px;
+    
+}
 
+.proyect-detail img{
+    width: 100%;
+    
+}
 
+nav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
 
 
 }
+
+nav ul li{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 20px;
+    background-color: lightblue ;
+    border: 5px  block black;
+
+
+}
+
+
+
 
 
 
