@@ -36,6 +36,14 @@ section#Proyects{
     background-color: gray;
 }
 
+section#contact{
+
+    
+}
+
+
+
+
  h1{
     font-size: 3rem;
 }
@@ -60,13 +68,14 @@ section#Proyects{
 
 .proyect-detail img{
     width: 100%;
+    border:20px;
     
 }
 
 nav ul{
-        display: flex;
-        justify-content: center;
-        list-style: none;
+     display: flex;
+     justify-content: center;
+     list-style: none;
 
 
 }
@@ -80,6 +89,7 @@ nav ul li{
 
 
 }
+
 
 
 
