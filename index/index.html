@@ -18,16 +18,16 @@
                 <h1>/Cv Ramdom/</h1>
                  <nav id="nav" class="">
                     <ul id="links">
-                        <li><a href="#inicio" class="seleccionado">INICIO</a></li>     
-                        <li><a href="#sobremi">SOBRE MI</a></li>
-                        <li><a href="#skills">HABILIDADES </a></li>
-                        <li><a href="#portfolio">PORTFOLIO</a></li>
-                        <li><a href="#contact">CONTACTAME</a></li>
+                        <li><a href="#inicio" class="seleccionado"onclick="seleccionar(this)"></a>>INICIO</a></li>     
+                        <li><a href="#sobremi" onclick="seleccionar(this)"></a>>SOBRE MI</a></li>
+                        <li><a href="#skills" onclick="seleccionar(this)"></a>>HABILIDADES </a></li>
+                        <li><a href="#portfolio" onclick="seleccionar(this)"></a>>PORTFOLIO</a></li>
+                        <li><a href="#contacto" onclick="seleccionar(this)"></a>>CONTACTAME</a></li>
                     </ul>
                  </nav>
     
                     <!--Iconos del menu responsive-->
-                    <div id="icon-nav">
+                    <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
 
@@ -74,9 +74,9 @@
                 <span class="porcentaje">40%</span>   
             </div>
              <div class="barra">
-                <div id="pas" class=""></div>
+                <div id="pas" class="barra-progreso1"></div>
              </div>
-        </div>
+            </div>
 
              <div class="skill">
                 <div class="info">
@@ -84,7 +84,7 @@
                  <span class="porcentaje">30%</span>   
                 </div>
              <div class="barra">
-                <div id="html" class=""></div>
+                <div id="html" class="barra-progreso2"></div>
             </div>
         </div>
             
@@ -94,7 +94,7 @@
                  <span class="porcentaje">15%</span>   
                 </div>
              <div class="barra">
-                <div id="js" class=""></div>
+                <div id="js" class="barra-progreso3"></div>
             </div>
     
         </div>
@@ -165,16 +165,10 @@
 
 </div>
 
-
-
-
-
-
-
 </SECTION>
 
 <!--SECCION DE CONTACTO-->
-<section ID="contacto">
+<section id="contacto">
     <h3 class="titulo-seccion">Contactame Ahora</h3>
     <div class="contenedor-form">
         <form action="">
@@ -192,14 +186,17 @@
         </form>
     </div>
 </section>
+<footer>
+    <p>Todos los derechos reservados - 2022</p>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+    </div>
 
+</footer>
 
-
-
-
-
-
-
+<script src="Functions.js"></script>
 
 
 </body>
